@@ -39,7 +39,7 @@ def format_func(value, tick_number):
 
 #############################################################################################
 # read file
-path = r"C:\Users\rhodi\Downloads\gametest"+dataset+".csv"
+path = r"C:\Users\eich\Desktop\MED_EXP_2024_G5\data"+dataset+".csv"
 data=pd.read_csv(path)
 
 hor = data.columns[0]
