@@ -9,7 +9,7 @@ import pywt
 fs=500  # sample rate
 
 # dataset 1: 10sets, 2: 5sets
-dataset = "1l_3"
+dataset = "1a"
 if dataset[0] == '1':
     set = 10
 elif dataset[0] == '2':
@@ -39,7 +39,7 @@ def format_func(value, tick_number):
 
 #############################################################################################
 # read file
-path = r"C:\Users\eich\Desktop\MED_EXP_2024_G5\data"+dataset+".csv"
+path = r"C:\Users\eich\Desktop\MED_EXP_2024_G5\data\csv\gametest"+dataset+".csv"
 data=pd.read_csv(path)
 
 hor = data.columns[0]
